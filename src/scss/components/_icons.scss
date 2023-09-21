@@ -3,6 +3,24 @@
 // 
 
 // Styling for the rounded social media links
+button.icon {
+    background-color: $primary;
+    border: none;
+    color: var(--color-text);
+    padding: 12px 16px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#sun {
+    display: var(--display-sun);
+    color: orange;
+}
+
+#moon {
+    display: var(--display-moon);
+    color: black;
+}
 
 .social-icons {
     .social-icon {

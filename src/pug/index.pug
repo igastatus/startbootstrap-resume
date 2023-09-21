@@ -47,6 +47,11 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#awards') Awards
 
+                    li.nav-item
+                        button.icon(onclick="document.body.classList.contains('dark') ? document.body.classList.remove('dark') : document.body.className += ' dark'")
+                            i#sun.fas.fa-sun
+                            i#moon.fas.fa-moon
+
         // Page Content
         .container-fluid.p-0
 
